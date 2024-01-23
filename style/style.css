@@ -1,0 +1,61 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.s-margin{
+    margin: 100px 120px;
+}
+/* header style start */
+header {
+    background-image: url("../images/banner/banner1.png");
+    height: 800px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header-container {
+    text-align: right;
+    padding-right: 230px;
+
+}
+
+.header-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-header {
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 20px 25px;
+    border: 0;
+    color: #fff;
+}
+
+.previous-year{
+    display: flex;
+    margin-top: 140px;
+    align-items: center;
+    gap: 110px;
+}
+.previous-year-column ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li i{
+    color: #16D887;
+}
+
+
+
+
