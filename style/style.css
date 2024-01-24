@@ -42,25 +42,26 @@ header {
 
 .previous-year{
     display: flex;
-    margin-top: 140px;
+    margin-top: 240px;
     align-items: center;
     gap: 110px;
 }
 
 .img-bg{
-    position: relative;
+    position: absolute;
+    bottom: -2px;
+    left: -25px;
     
 }
 
 .color-background{
-    position: absolute;
+    position: relative;
     width: 527px;
     height: 527px;
     border-radius: 50%;
     background: rgba(241, 91, 34, 0.20);
-    bottom: 5px;
-    left: 25px;
-    opacity: 0.5;
+    
+    
     
 }
 .previous-year-column ul{
