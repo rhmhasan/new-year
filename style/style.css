@@ -46,6 +46,23 @@ header {
     align-items: center;
     gap: 110px;
 }
+
+.img-bg{
+    position: relative;
+    
+}
+
+.color-background{
+    position: absolute;
+    width: 527px;
+    height: 527px;
+    border-radius: 50%;
+    background: rgba(241, 91, 34, 0.20);
+    bottom: 5px;
+    left: 25px;
+    opacity: 0.5;
+    
+}
 .previous-year-column ul{
     list-style: none;
     margin: 0;
